@@ -1,128 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shivam Kushwah | Portfolio</title>
-    <link rel="icon" href="s.jpg" type="image/png">
-    <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            font-family: 'Segoe UI', Arial, sans-serif;
-            background: #f5f7fa;
-            margin: 0;
-            color: #222;
-        }
-        header {
-            background: #2d3e50;
-            color: #fff;
-            padding: 30px 0 10px 0;
-            text-align: center;
-        }
-        main {
-            max-width: 800px;
-            margin: 30px auto;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 12px rgba(0,0,0,0.08);
-            padding: 35px 40px;
-        }
-        section {
-            margin-bottom: 32px;
-        }
-        h2 {
-            color: #2d3e50;
-            border-bottom: 2px solid #ececec;
-            padding-bottom: 4px;
-        }
-        ul {
-            padding-left: 18px;
-        }
-        a {
-            color: #0077b5;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            text-align: center;
-            padding: 18px 0;
-            background: #2d3e50;
-            color: #fff;
-            margin-top: 40px;
-            font-size: 1em;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shivam Kushwah | Portfolio</title>
+  <link rel="icon" href="s.jpg" type="image/png" />
+  <style>
+    /* Black and White Theme with Grayscale */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff;
+      color: #111;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 30px 0 15px;
+      text-align: center;
+      border-bottom: 2px solid #444;
+    }
+    header h1 {
+      font-style: italic;
+      font-weight: 700;
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #444;
+      margin: 15px auto 0;
+      width: 80%;
+    }
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px 40px;
+    }
+    section {
+      margin-bottom: 40px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 25px;
+    }
+    section:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    h2 {
+      font-weight: 700;
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+      color: #000;
+      border-bottom: 2px solid #222;
+      padding-bottom: 6px;
+    }
+    p {
+      font-size: 1rem;
+      color: #222;
+      margin: 8px 0;
+    }
+    ul {
+      padding-left: 20px;
+      color: #111;
+    }
+    a {
+      color: #000;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.3s ease;
+    }
+    a:hover {
+      border-color: #000;
+      text-decoration: none;
+    }
+    footer {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 18px 0;
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+      margin-top: 60px;
+    }
+
+    /* Education Section Layout */
+    .education-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .education-item {
+      flex: 1 1 45%;
+      background: #f9f9f9;
+      border: 1px solid #ccc;
+      padding: 15px 20px;
+      border-radius: 6px;
+      color: #111;
+    }
+    .education-item b {
+      display: block;
+      font-size: 1.1rem;
+      margin-bottom: 6px;
+      color: #000;
+    }
+
+    /* Project description styling */
+    .project-description {
+      color: #333;
+      font-size: 1rem;
+      line-height: 1.4;
+      max-width: 700px;
+    }
+  </style>
 </head>
 <body>
+  <header>
+    <h1><b><i>My Portfolio</i></b></h1>
+    <hr />
+  </header>
 
-    <header>
-        <h1><b><i>My Portfolio</i></b></h1>
-        <hr>
-    </header>
+  <main>
+    <section>
+      <h2><b>Introduction</b></h2>
+      <p>
+        Hello, my name is Shivam Kushwah. I am currently pursuing a B.Tech in
+        Computer Science and Engineering (CSE) from Sushila Devi Bansal College
+        of Technology.
+      </p>
+    </section>
 
-    <main>
-        <section>
-            <h2><b>Introduction</b></h2>
-            <p>Hello, my name is Shivam Kushwah. I am currently pursuing a B.Tech in Computer Science and Engineering (CSE) from Sushila Devi Bansal College of Technology.</p>
-        </section>
+    <section>
+      <h2><b>Education</b></h2>
+      <div class="education-container">
+        <div class="education-item">
+          <b>B.Tech in Computer Science & Engineering</b>
+          <p>Duration: 2023-2027</p>
+          <p>Current Grade: A</p>
+        </div>
+        <div class="education-item">
+          <b>12th Grade</b>
+          <p>Grade: A</p>
+        </div>
+      </div>
+    </section>
 
-        <section>
-            <h2><b>Education</b></h2>
-            <p><b>B.Tech in Computer Science & Engineering</b> (2023-2027)</p>
-            <p>Current Grade: A</p>
-            <p><b>12th Grade</b>: A grade</p>
-        </section>
+    <section>
+      <h2><b>Experience</b></h2>
+      <p>I achieved 3rd rank in the District Science Quiz.</p>
+    </section>
 
-        <section>
-            <h2><b>Experience</b></h2>
-            <p>I achieved 3rd rank in the District Science Quiz.</p>
-        </section>
+    <section>
+      <h2><b>Technical Stack</b></h2>
+      <p><b>Languages:</b> C, C++, Core Java</p>
+      <p><b>Tools:</b> Git, GitHub</p>
+      <p><b>Databases & Frameworks:</b> MySQL, JDBC</p>
+    </section>
 
-        <section>
-            <h2><b>Technical Stack</b></h2>
-            <p><b>Languages:</b> C, C++, Core Java</p>
-            <p><b>Tools:</b> Git, GitHub</p>
-            <p><b>Databases & Frameworks:</b> MySQL, JDBC</p>
-        </section>
+    <section>
+      <h2><b>Projects</b></h2>
+      <ul>
+        <li>
+          <b>Student Management System</b><br />
+          <p class="project-description">
+            A web-based application designed to efficiently manage student
+            records, enrollment, and academic details. Built using <b>Java</b>
+            (JSP & Servlets) for the backend, <b>MySQL</b> for the database,
+            and <b>CSS</b> for frontend styling. The system allows
+            administrators to add, update, and delete student information and
+            provides a user-friendly interface for managing academic data
+            securely.
+          </p>
+        </li>
+      </ul>
+    </section>
 
-        <section>
-            <h2><b>Projects</b></h2>
-            <ul>
-                <li>
-                    <b>Student Management System</b><br>
-                    <span style="color: #555;">
-                        A web-based application designed to efficiently manage student records, enrollment, and academic details. Built using <b>Java</b> (JSP & Servlets) for the backend, <b>MySQL</b> for the database, and <b>CSS</b> for the frontend styling. The system allows administrators to add, update, and delete student information, and provides a user-friendly interface for managing academic data securely.
-                    </span>
-                </li>
-            </ul>
-        </section>
+    <section>
+      <h2><b>Hobbies</b></h2>
+      <p>Playing chess and learning new technologies.</p>
+    </section>
 
-        <section>
-            <h2><b>Hobbies</b></h2>
-            <p>Playing chess and learning new technologies.</p>
-        </section>
+    <section>
+      <h2><b>Connect with Me</b></h2>
+      <p>Check out my social media and coding platform profiles:</p>
+      <ul>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/kushwahshivam/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <a href="https://leetcode.com/u/kushwahshivam/" target="_blank"
+            >LeetCode</a
+          >
+        </li>
+        <li>
+          <a href="https://instagram.com/shivamm.kushwah" target="_blank"
+            >Instagram</a
+          >
+        </li>
+      </ul>
+    </section>
 
-        <section>
-            <h2><b>Connect with Me</b></h2>
-            <p>Check out my social media and coding platform profiles:</p>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/kushwahshivam/" target="_blank">LinkedIn</a></li>
-                <li><a href="https://leetcode.com/u/kushwahshivam/" target="_blank">LeetCode</a></li>
-                <li><a href="https://instagram.com/shivamm.kushwah" target="_blank">Instagram</a></li>
-            </ul>
-        </section>
+    <section>
+      <h2><b>Resume</b></h2>
+      <p>
+        <a
+          href="https://drive.google.com/file/d/1CtsL6PGsR2xqrF9dF86l_w3HWvhZY6kw/view?usp=sharing"
+          target="_blank"
+          >Download My Resume</a
+        >
+      </p>
+    </section>
+  </main>
 
-        <section>
-            <h2><b>Resume</b></h2>
-            <p><a href="https://drive.google.com/file/d/1CtsL6PGsR2xqrF9dF86l_w3HWvhZY6kw/view?usp=sharing" target="_blank">Download My Resume</a></p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; Shivam Kushwah | All Rights Reserved</p>
-    </footer>
-
+  <footer>
+    <p>&copy; Shivam Kushwah | All Rights Reserved</p>
+  </footer>
 </body>
 </html>
