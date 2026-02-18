@@ -209,3 +209,31 @@ footer {
   font-size: 0.95rem;
   letter-spacing: 1px;
 }
+
+/* Theme Button */
+.theme-btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: white;
+}
+
+/* Light Mode */
+.light-mode {
+  background: #ffffff;
+  color: #111;
+}
+
+.light-mode .navbar {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.light-mode .card {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.light-mode .section h2 {
+  color: #111;
+}
+
