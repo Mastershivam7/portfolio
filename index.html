@@ -4,117 +4,84 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Shivam Kushwah | Portfolio</title>
-  <link rel="icon" href="s.jpg" type="image/png" />
   <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
-  <header>
-    <h1><b><i>My Portfolio</i></b></h1>
-    <hr />
-  </header>
 
-  <main>
-    <section>
-      <h2><b>Summary</b></h2>
-      <p>
-        Aspiring Java Developer skilled in backend technologies including Spring Boot and MongoDB Atlas. Passionate about building scalable and secure web applications while writing clean, efficient, and maintainable code. Strong foundation in Object-Oriented Programming and Data Structures.
-      </p>
-    </section>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <h2 class="logo">Shivam.</h2>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-    <section>
-      <h2><b>Education</b></h2>
-      <div class="education-container">
-        <div class="education-item">
-          <b>B.Tech in Computer Science & Engineering</b>
-          <p>Sushila Devi Bansal College of Technology, Indore</p>
-          <p>Duration: 2023 – 2027</p>
-          <p>CGPA: 7.53 (Till 3rd Semester)</p>
-        </div>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span>Shivam Kushwah</span></h1>
+      <h2 class="typing"></h2>
+      <a href="#contact" class="btn">Connect With Me</a>
+    </div>
+  </section>
 
-        <div class="education-item">
-          <b>12th Grade (PCM)</b>
-          <p>Government Higher Secondary School, Kamadpur</p>
-          <p>Session: 2022 – 2023</p>
-          <p>Grade: A</p>
-        </div>
-      </div>
-    </section>
+  <!-- About -->
+  <section id="about" class="section reveal">
+    <h2>About Me</h2>
+    <p>
+      Aspiring Java Developer skilled in Spring Boot and MongoDB.
+      Passionate about scalable backend systems and clean architecture.
+    </p>
+  </section>
 
-    <section>
-      <h2><b>Projects & Experience</b></h2>
-      <ul>
+  <!-- Projects -->
+  <section id="projects" class="section reveal">
+    <h2>Projects</h2>
 
-        <li>
-          <b>Journal App Backend (Spring Boot)</b>
-          <p class="project-description">
-            Built a secure journaling backend using Spring Boot with JWT authentication and role-based access. Used MongoDB Atlas for scalable storage, Redis for caching, Kafka for event handling, and designed RESTful APIs following layered architecture.
-          </p>
-        </li>
+    <div class="card">
+      <h3>Journal App Backend</h3>
+      <p>Secure journaling backend using JWT, MongoDB Atlas, Redis & Kafka.</p>
+    </div>
 
-        <li>
-          <b>Student Management System</b>
-          <p class="project-description">
-            Developed a CRUD-based system using JSP, Servlets, JDBC, and MySQL. Implemented session authentication, MVC architecture, and deployed on Apache Tomcat.
-          </p>
-        </li>
+    <div class="card">
+      <h3>Student Management System</h3>
+      <p>CRUD app using JSP, Servlets, JDBC & MySQL.</p>
+    </div>
 
-        <li>
-          <b>Portfolio Website</b>
-          <p class="project-description">
-            Created a responsive personal portfolio using HTML5 and CSS3 to showcase skills and projects.
-          </p>
-        </li>
+    <div class="card">
+      <h3>Portfolio Website</h3>
+      <p>Responsive animated portfolio using HTML & CSS.</p>
+    </div>
+  </section>
 
-      </ul>
-    </section>
+  <!-- Skills -->
+  <section id="skills" class="section reveal">
+    <h2>Technical Skills</h2>
+    <div class="skills">
+      <span>Java</span>
+      <span>Spring Boot</span>
+      <span>MongoDB</span>
+      <span>MySQL</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>Git</span>
+    </div>
+  </section>
 
-    <section>
-      <h2><b>Technical Skills</b></h2>
-      <p><b>Languages:</b> C, C++, Java, Python</p>
-      <p><b>Web Development:</b> HTML, CSS</p>
-      <p><b>Databases:</b> MySQL, MongoDB</p>
-      <p><b>Frameworks/Tools:</b> Spring Boot, Servlets, JDBC, Git, GitHub, Postman</p>
-    </section>
-
-    <section>
-      <h2><b>Achievements</b></h2>
-      <ul>
-        <li>3rd Position in District Science Quiz</li>
-        <li>Participant in Smart India Hackathon 2024 (Women Safety Analytics Project)</li>
-        <li>Completed TCS iON Career Edge – Young Professional Program</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2><b>Coursework</b></h2>
-      <p>
-        Object-Oriented Programming, Data Structures and Algorithms
-      </p>
-    </section>
-
-    <section>
-      <h2><b>Connect with Me</b></h2>
-      <ul>
-        <li><a href="https://www.linkedin.com/in/kushwahshivam/" target="_blank">LinkedIn</a></li>
-        <li><a href="https://github.com/kushwahshivam" target="_blank">GitHub</a></li>
-        <li><a href="https://leetcode.com/u/kushwahshivam/" target="_blank">LeetCode</a></li>
-        <li><a href="https://instagram.com/shivamm.kushwah" target="_blank">Instagram</a></li>
-        <li><a href="https://shivamkushwah.in" target="_blank">Live Portfolio</a></li>
-      </ul>
-    </section>
-
-    <section>
-      <h2><b>Resume</b></h2>
-      <p>
-        <a href="https://drive.google.com/file/d/1zgt29q7PtwUHFuojTe-jEkimWVsgj0oR/view?usp=sharing" target="_blank">
-          Download My Resume
-        </a>
-      </p>
-    </section>
-  </main>
+  <!-- Contact -->
+  <section id="contact" class="section reveal">
+    <h2>Connect With Me</h2>
+    <a href="https://github.com/kushwahshivam" target="_blank" class="btn">GitHub</a>
+    <a href="https://linkedin.com/in/kushwahshivam" target="_blank" class="btn">LinkedIn</a>
+  </section>
 
   <footer>
-    <p>&copy; Shivam Kushwah | All Rights Reserved</p>
+    <p>© 2026 Shivam Kushwah | All Rights Reserved</p>
   </footer>
+
 </body>
 </html>
