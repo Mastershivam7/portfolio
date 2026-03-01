@@ -231,6 +231,10 @@ body.light-mode .section h2 {
   color: #111;
 }
 
+body.light-mode .theme-btn {
+  color: #111;
+}
+
 /* =========================
    Responsive
 ========================= */
