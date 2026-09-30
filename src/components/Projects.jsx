@@ -4,7 +4,24 @@ import { ArrowUpRight } from 'lucide-react';
 
 const projects = [
     {
-        id: "01",
+    id: "01",
+    name: "FITNESS TRACKER",
+    tagline: "Scalable fitness platform powered by Spring Boot microservices and AI.",
+    description: "A distributed microservices-based fitness platform for managing users, tracking activities, and generating personalized AI fitness recommendations. Built with Spring Boot and Spring Cloud, featuring Keycloak OAuth2/OIDC authentication, RabbitMQ for asynchronous communication, PostgreSQL and MongoDB for polyglot persistence, and Docker for containerized deployment.",
+    tags: ["Java", "Spring Boot", "Microservices", "RabbitMQ", "Keycloak", "Docker"],
+    accent: "#00D4FF",
+    github: "[https://github.com/kushwahshivam/fitness-app-microservices](https://github.com/kushwahshivam/fitness-app-microservices)",
+    features: [
+        "SPRING_CLOUD_MICROSERVICES_ARCH",
+        "RABBITMQ_ASYNC_COMMUNICATION",
+        "KEYCLOAK_OAUTH2_OIDC_SECURITY",
+        "GEMINI_AI_FITNESS_RECOMMENDATIONS",
+        "POLYGLOT_PERSISTENCE_POSTGRES_MONGO",
+        "DOCKER_CONTAINERIZED_DEPLOYMENT"
+    ]
+},
+    {
+        id: "02",
         name: "JOURNAL APP",
         tagline: "Secure personal journaling backend built with Spring Boot.",
         description: "A scalable RESTful backend system for managing personal journal entries. Implements JWT authentication and role-based authorization using Spring Security. Integrated MongoDB Atlas for cloud database, Redis for performance caching, and Apache Kafka for asynchronous event-driven communication.",
@@ -18,7 +35,7 @@ const projects = [
         ]
     },
     {
-        id: "02",
+        id: "03",
         name: "STUDENT MANAGEMENT",
         tagline: "Full CRUD student management web system.",
         description: "A Java web application built using JSP, Servlets, and MySQL to manage student records. Implements session-based authentication, MVC architecture, server-side validation, and database operations using JDBC.",
@@ -32,7 +49,7 @@ const projects = [
         ]
     },
     {
-        id: "03",
+        id: "04",
         name: "PORTFOLIO WEBSITE",
         tagline: "Personal developer portfolio website.",
         description: "A responsive portfolio website designed to showcase projects, skills, and GitHub work. Built with HTML5 and CSS3 focusing on clean UI, responsiveness, and professional presentation.",
@@ -46,7 +63,7 @@ const projects = [
         ]
     },
     {
-        id: "04",
+        id: "05",
         name: "DSA PRACTICE",
         tagline: "Strengthening problem solving with algorithms.",
         description: "Practicing data structures and algorithms with Java through coding platforms like LeetCode. Focused on recursion, dynamic programming, greedy algorithms, and problem solving patterns.",
