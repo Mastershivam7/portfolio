@@ -10,7 +10,7 @@ const projects = [
     description: "A distributed microservices-based fitness platform for managing users, tracking activities, and generating personalized AI fitness recommendations. Built with Spring Boot and Spring Cloud, featuring Keycloak OAuth2/OIDC authentication, RabbitMQ for asynchronous communication, PostgreSQL and MongoDB for polyglot persistence, and Docker for containerized deployment.",
     tags: ["Java", "Spring Boot", "Microservices", "RabbitMQ", "Keycloak", "Docker"],
     accent: "#00D4FF",
-    github: "[https://github.com/kushwahshivam/fitness-app-microservices](https://github.com/kushwahshivam/fitness-app-microservices)",
+    github: "https://github.com/kushwahshivam/fitness-app-microservices",
     features: [
         "SPRING_CLOUD_MICROSERVICES_ARCH",
         "RABBITMQ_ASYNC_COMMUNICATION",
