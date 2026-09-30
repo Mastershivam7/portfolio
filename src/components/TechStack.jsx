@@ -8,7 +8,7 @@ const categories = [
     },
     { 
         name: "BACKEND", 
-        items: ["Spring Boot", "REST APIs", "Servlets", "JDBC"] 
+        items: ["Spring Boot", "REST APIs", "Servlets", "JDBC","Fastapi"] 
     },
     { 
         name: "DATABASE", 
